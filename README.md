@@ -17,13 +17,13 @@ This Bash script allows you to change the MAC (Media Access Control) address of 
 1. Make the script executable if it's not already:
 
    ```
-   chmod +x mac_address_changer.sh
+   chmod +x maccchngr.sh
    ```
 
 2. Run the script:
 
    ```
-   ./mac_address_changer.sh
+   ./maccchngr.sh
    ```
 
 3. The script will capture the current MAC address of the "eth0" network interface, generate a random MAC address, and set the network interface's MAC address to the generated value.
